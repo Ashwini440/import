@@ -18,6 +18,7 @@ provider "aws" {
 resource "aws_instance" "harness" {
   instance_type = "t2.micro"
   ami           = "ami-08b5b3a93ed654d19"
+  instance_id   = "<+pipeline.variables.instance_id>"
   
   tags = {
     Name = "harness"
@@ -30,4 +31,7 @@ variable "accesskey" {
 
 variable "secretaccesskey" {
   type = string
+}
+variable "instance_id" {
+type = string
 }
