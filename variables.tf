@@ -1,6 +1,6 @@
-variable "accesskey" {
-  type = string
-}
-variable "secretaccesskey" {
-  type = string
-}
+//variable "accesskey" {
+  //type = string
+//}
+//variable "secretaccesskey" {
+ // type = string
+//}
