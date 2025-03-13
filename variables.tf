@@ -4,3 +4,6 @@ variable "accesskey" {
 variable "secretaccesskey" {
   type = string
 }
+variable "instance_id" {
+  type = string
+}
