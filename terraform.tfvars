@@ -1,2 +1,2 @@
-accesskey = ""
-secertaccesskey = ""
+//accesskey = ""
+//secertaccesskey = ""
