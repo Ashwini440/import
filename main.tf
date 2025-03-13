@@ -9,8 +9,10 @@ terraform {
 
 provider "aws" {
   region      = "us-east-1"
-  access_key  = var.accesskey
-  secret_key  = var.secretaccesskey
+  //access_key  = var.accesskey
+  //secret_key  = var.secretaccesskey
+  access_key  = "<+pipeline.variables.accesskey>"
+  secret_key  = "<+pipeline.variables.secretaccesskey>"
 }
 
 resource "aws_instance" "harness" {
