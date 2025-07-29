@@ -25,14 +25,14 @@ resource "aws_instance" "harness" {
   }
 }
 
-variable "accesskey" {
-  type = string
-}
+//variable "accesskey" {
+  //type = string
+//}
 
-variable "secretaccesskey" {
-  type = string
-}
+//variable "secretaccesskey" {
+  //type = string
+//}
 
-variable "instance_id" {
-  type = string
-}
+//variable "instance_id" {
+  //type = string
+//}
